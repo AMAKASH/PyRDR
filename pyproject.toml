@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PyRDR"
+version = "0.5.1"
+authors = [
+  { name="Abid Mahmood Akash", email="amakash12@gmail.com" },
+]
+description = "Ripple Down Rule Based Knowledgebase for Both Single and Multiclass Classification"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"GitHub" = "https://github.com/AMAKASH/PyRDR"
